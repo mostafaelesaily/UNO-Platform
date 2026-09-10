@@ -1,0 +1,128 @@
+AllInOne/
+│
+├── src/
+│   │
+│   ├── AllInOne.Domain/
+│   │   │
+│   │   ├── Entities/
+│   │   │   ├── Common/
+│   │   │   │   └── ...
+│   │   │   ├── LMS/
+│   │   │   │   └── ...
+│   │   │   ├── ECommerce/
+│   │   │   │   └── ...
+│   │   │   └── Profile/
+│   │   │       └── ...
+│   │   │
+│   │   ├── ValueObjects/
+│   │   │   └── ...
+│   │   │
+│   │   ├── Enums/
+│   │   │   └── ...
+│   │   │
+│   │   └── Interfaces/
+│   │       ├── Common/
+│   │       │   └── ...
+│   │       ├── LMS/
+│   │       │   └── ...
+│   │       ├── ECommerce/
+│   │       │   └── ...
+│   │       └── Profile/
+│   │           └── ...
+│   │
+│   │
+│   ├── AllInOne.Application/
+│   │   │
+│   │   ├── Interfaces/
+│   │   │   ├── Common/
+│   │   │   │   └── ...
+│   │   │   ├── LMS/
+│   │   │   │   └── ...
+│   │   │   ├── ECommerce/
+│   │   │   │   └── ...
+│   │   │   └── Profile/
+│   │   │       └── ...
+│   │   │
+│   │   ├── Services/
+│   │   │   ├── Common/
+│   │   │   │   └── ...
+│   │   │   ├── LMS/
+│   │   │   │   └── ...
+│   │   │   ├── ECommerce/
+│   │   │   │   └── ...
+│   │   │   └── Profile/
+│   │   │       └── ...
+│   │   │
+│   │   ├── DTOs/
+│   │   │   ├── Common/
+│   │   │   ├── LMS/
+│   │   │   ├── ECommerce/
+│   │   │   └── Profile/
+│   │   │
+│   │   ├── Exceptions/
+│   │   │   └── ...
+│   │   │
+│   │   └── Validators/
+│   │       ├── Common/
+│   │       ├── LMS/
+│   │       ├── ECommerce/
+│   │       └── Profile/
+│   │
+│   │
+│   ├── AllInOne.Infrastructure/
+│   │   │
+│   │   ├── Services/
+│   │   │   ├── Common/
+│   │   │   │   └── ...
+│   │   │   ├── LMS/
+│   │   │   │   └── ...
+│   │   │   ├── ECommerce/
+│   │   │   │   └── ...
+│   │   │   └── Profile/
+│   │   │       └── ...
+│   │   │
+│   │   ├── Persistence/
+│   │   │   ├── Configurations/
+│   │   │   │   ├── Common/
+│   │   │   │   ├── LMS/
+│   │   │   │   ├── ECommerce/
+│   │   │   │   └── Profile/
+│   │   │   │
+│   │   │   ├── AppDbContext.cs
+│   │   │   └── Migrations/
+│   │   │
+│   │   └── Identity/
+│   │       └── ...
+│   │
+│   │
+│   ├── AllInOne.Presentation/
+│   │   │
+│   │   ├── Controllers/
+│   │   │   ├── Common/
+│   │   │   ├── LMS/
+│   │   │   ├── ECommerce/
+│   │   │   └── Profile/
+│   │   │
+│   │   ├── Middleware/
+│   │   │   ├── ExceptionHandlingMiddleware.cs
+│   │   │   └── TenantResolutionMiddleware.cs
+│   │   │
+│   │   ├── Filters/
+│   │   │   └── ...
+│   │   │
+│   │   ├── Extensions/
+│   │   │   └── ...
+│   │   │
+│   │   └── Program.cs
+│   │
+│   │
+│   └── AllInOne.Tests/
+│       ├── Common/
+│       ├── LMS/
+│       ├── ECommerce/
+│       └── Profile/
+│
+├── .gitignore
+├── docker-compose.yml
+├── Directory.Build.props
+└── README.md
