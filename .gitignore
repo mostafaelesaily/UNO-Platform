@@ -1,0 +1,47 @@
+# Build output
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+# Test results
+**/TestResults/
+*.trx
+
+# Code coverage
+**/coverage/
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+
+# ASP.NET Core local configuration
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# User Secrets
+secrets.json
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+**/logs/
+
+# OS files
+.DS_Store
+Thumbs.db

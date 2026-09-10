@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Src/">
+    <Project Path="UNO.Application/UNO.Application.csproj" />
+    <Project Path="UNO.Domain/UNO.Domain.csproj" />
+    <Project Path="UNO.infrastructure/UNO.infrastructure.csproj" />
+    <Project Path="UNO.Presentation/UNO.Presentation.csproj" />
+    <Project Path="UNO.Test/UNO.Test.csproj" />
+  </Folder>
+</Solution>
