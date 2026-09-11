@@ -24,7 +24,7 @@ jobs:
         run: dotnet restore Uno/Uno.slnx
 
       - name: Build
-        run: dotnet build Uno/Uno.slnx --no-restore
+        run: dotnet build UNO/UNO.slnx --no-restore
 
       - name: Test
-        run: dotnet test Uno/Uno.slnx --no-build --verbosity normal
+        run: dotnet test UNO/UNO.slnx --no-build --verbosity normal
