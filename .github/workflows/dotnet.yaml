@@ -20,10 +20,10 @@ jobs:
           dotnet-version: 10.0.x
 
       - name: Restore dependencies
-        run: dotnet restore UNO/UNO.slnx
+        run: dotnet restore UNO.slnx
 
       - name: Build
-        run: dotnet build UNO/UNO.slnx --no-restore
+        run: dotnet build UNO.slnx --no-restore
 
       - name: Test
-        run: dotnet test UNO/UNO.slnx --no-build --verbosity normal
+        run: dotnet test UNO.slnx --no-build --verbosity normal
