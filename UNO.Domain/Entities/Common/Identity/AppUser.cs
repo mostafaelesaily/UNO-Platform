@@ -7,5 +7,7 @@ namespace UNO.Domain.Entities.Common.Identity
 {
     public class AppUser : IdentityUser
     {
+        public ICollection<RefreshTokens> RefreshTokens { get; set; } = new List<RefreshTokens>();
+
     }
 }
